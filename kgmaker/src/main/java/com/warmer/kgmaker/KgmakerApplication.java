@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan
+@ComponentScan(basePackages = "com.warmer")
 public class KgmakerApplication {
 
 	public static void main(String[] args) {
